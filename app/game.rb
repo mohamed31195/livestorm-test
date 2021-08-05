@@ -19,10 +19,6 @@ class Game
     @lives -= 1
   end
 
-  def end_game
-    @game_over = true
-  end
-
   def run
     system('clear')
 
